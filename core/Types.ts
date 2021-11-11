@@ -16,6 +16,6 @@ export type NewsType = {
     tit: string;
     sum: string;
     ico: string;
-    dat: Date;
+    dat: string;
     txt: string;
 }

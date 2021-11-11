@@ -1,9 +1,8 @@
 header {
     z-index: -1;
 
-    margin-top: 3.5rem;
     background: var(--themeColor1);
-    padding-bottom: 400px;
+    padding-bottom: 350px;
     text-align: center;
 
     background-image: url('../public/banniere.png');

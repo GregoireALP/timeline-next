@@ -1,0 +1,24 @@
+.news-title {
+    font-family: "Bank Ghotic";
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.news-container {
+    margin: 2rem;
+}
+
+.news-sum {
+    font-family: "Bank Ghotic";
+    color: white;
+    font-size: 20px;
+    margin: 0 10rem 1rem 10rem;
+    text-align: center;
+}
+
+.news-txt p {
+    color: white;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+}

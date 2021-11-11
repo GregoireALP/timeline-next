@@ -6,12 +6,7 @@ const Navbar: NextPage = () => {
         <nav className="navbar">
 
             <div className="navbar-decoration">
-                <div className="navbar-decoration-div">
-                    <Link href='/'><a className="navbar-title">Timeline</a></Link>
-                </div>
-                <div className="navbar-decoration-div">
-                <Link href='/'><a className="navbar-subtitle">FRA 43 831</a></Link>
-                </div>
+                <Link href='/'><a className="navbar-title">Timeline</a></Link>
             </div>
 
             <div className="navbar-navigation">

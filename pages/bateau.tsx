@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Navbar from '../components/navbar'
 import BoatCard from '../components/boatCard';
 import BoatData from "../json/BoatData.json"
+import Footer from '../components/footer';
 
 const Bateau: NextPage = () => {
 
@@ -117,6 +118,7 @@ const Bateau: NextPage = () => {
             <div className="boat-container">
                 {boat}
             </div>
+            <Footer />
         </div>
     )
 }

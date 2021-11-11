@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import { useEffect, useState } from 'react'
+import Footer from '../components/footer'
 import Navbar from '../components/navbar'
 import ResultFrame from '../components/resultFrame'
 import { ResultFramePropsType } from '../core/Types'
@@ -49,6 +50,7 @@ const Resultats: NextPage = () => {
                     />
                 )
             })}
+            <Footer/>
         </div>
     )
 }

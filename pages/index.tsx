@@ -1,7 +1,8 @@
 import type { NextPage } from 'next'
 import Navbar from '../components/navbar'
 import { NewsType } from '../core/Types'
-
+import News from "../components/news"
+import Footer from '../components/footer'
 interface IProps {
   data: NewsType;
 }
@@ -11,15 +12,10 @@ const Home: NextPage<IProps> = ({ data }) => {
     <div>
       <Navbar />
       <header></header>
-
-      <main>
-        <h1>Notre derniere article</h1>
-
-        <h2>{data.tit} - {data.dat}</h2>
-        <h3>{data.sum}</h3>
-
-        <p>{data.txt}</p>
-      </main>
+      <News 
+        data={data}
+      />
+      <Footer/>
     </div>
   )
 }
@@ -28,7 +24,16 @@ const Home: NextPage<IProps> = ({ data }) => {
 Home.getInitialProps = async (ctx) => {
   const res = await fetch('http://localhost:3000/api/public/lastNews')
   const json = await res.json()
-  return { data: json }
+  const news =  json.result[0]
+  return {
+    data: {
+      dat: news.dat,
+      ico: news.ico,
+      sum: news.sum,
+      tit: news.tit,
+      txt: news.txt
+    }
+  }
 }
 
 export default Home

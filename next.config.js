@@ -6,6 +6,6 @@ module.exports = {
     port: 3306,
     database: "timeline",
     user: "root",
-    password: "88S2BrHopyllbewog"
+    password: ""
   }
 }

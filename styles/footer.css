@@ -1,0 +1,18 @@
+.footer {
+    background-color: #001d35;
+    width: 100%;
+    height: 125px;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.footer p, a {
+    line-height: 125px;
+    color: white;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    text-align: start;
+    margin-left: 1rem;
+}
