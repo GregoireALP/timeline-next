@@ -1,0 +1,35 @@
+.boat-card {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+
+    width: 100%;
+}
+
+.boat-card-image-conatiner {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.boat-card-image-frame {
+    display: inline-block;
+
+    border-radius: 15px;
+}
+
+.boat-card-details-conatiner {
+    width: 100%;
+}
+
+.boat-card-details-list {
+    list-style-type: none;
+    display: table;
+    margin: 0 auto;
+}
+
+.boat-card-details-list li {
+    color: white;
+    font-size: 20px;
+    margin-top: 0.5rem;
+    font-family: "Raleway", sans-serif;
+}

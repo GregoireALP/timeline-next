@@ -1,0 +1,419 @@
+[
+    {
+        "year": "2018",
+        "data": [
+            {
+                "name": "Entrainement 17/18 Février",
+                "crew": [
+                    {
+                        "name": "MA",
+                        "role": "Barre"
+                    },
+                    {
+                        "name": "JFH",
+                        "role": "GV"
+                    },
+                    {
+                        "name": "JBV",
+                        "role": "Tactique"
+                    },
+                    {
+                        "name": "FB",
+                        "role": "Genoa"
+                    },
+                    {
+                        "name": "BA",
+                        "role": "Spi"
+                    },
+                    {
+                        "name": "JA",
+                        "role": "Clavier"
+                    },
+                    {
+                        "name": "AD",
+                        "role": "#2"
+                    },
+                    {
+                        "name": "CR",
+                        "role": "#1"
+                    }
+                ]
+            },
+            {
+                "name": "Entrainement 17/18 Mars",
+                "crew": [
+                    {
+                        "name": "JH",
+                        "role": "Barre"
+                    },
+                    {
+                        "name": "MA",
+                        "role": "GV"
+                    },
+                    {
+                        "name": "JBV",
+                        "role": "Tactique"
+                    },
+                    {
+                        "name": "FB",
+                        "role": "Genoa"
+                    },
+                    {
+                        "name": "JA",
+                        "role": "Clavier"
+                    },
+                    {
+                        "name": "AD",
+                        "role": "#2"
+                    },
+                    {
+                        "name": "EW",
+                        "role": "#1"
+                    }
+                ]
+            },
+            {
+                "name": "Spi-Ouest 29 Mars / 1er avril",
+                "crew": [
+                    {
+                        "name": "MA",
+                        "role": "Barre"
+                    },
+                    {
+                        "name": "JFH",
+                        "role": "GV"
+                    },
+                    {
+                        "name": "JBV",
+                        "role": "Tactique"
+                    },
+                    {
+                        "name": "FB",
+                        "role": "Genoa"
+                    },
+                    {
+                        "name": "BA",
+                        "role": "Spi"
+                    },
+                    {
+                        "name": "JA",
+                        "role": "Clavier"
+                    },
+                    {
+                        "name": "EW",
+                        "role": "#2"
+                    },
+                    {
+                        "name": "CR",
+                        "role": "#1"
+                    }
+                ]
+            },
+            {
+                "name": "IRC European",
+                "crew": [
+                    {
+                        "name": "JH",
+                        "role": "Barre"
+                    },
+                    {
+                        "name": "JBV",
+                        "role": "Tactique"
+                    },
+                    {
+                        "name": "FB",
+                        "role": "Genoa"
+                    },
+                    {
+                        "name": "ND",
+                        "role": "Spi"
+                    },
+                    {
+                        "name": "AD",
+                        "role": "#2"
+                    },
+                    {
+                        "name": "CR",
+                        "role": "#1"
+                    }
+                ]
+            },
+            {
+                "name": "Cowes / Dinard 7/9 Juillet",
+                "crew": [
+                    {
+                        "name": "JH",
+                        "role": "Barre"
+                    },
+                    {
+                        "name": "AD",
+                        "role": "GV"
+                    },
+                    {
+                        "name": "JBV",
+                        "role": "Navigateur"
+                    },
+                    {
+                        "name": "ND",
+                        "role": "#3"
+                    },
+                    {
+                        "name": "BA",
+                        "role": "#3"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "year": "2017",
+        "data": [
+            {
+                "name": "Entrainement 6/7 Mai",
+                "crew": [
+                    {
+                        "name": "MA",
+                        "role": "Barre"
+                    },
+                    {
+                        "name": "JFH",
+                        "role": "GV"
+                    },
+                    {
+                        "name": "JBV",
+                        "role": "Navigateur"
+                    },
+                    {
+                        "name": "ND",
+                        "role": "#3"
+                    },
+                    {
+                        "name": "JA",
+                        "role": "#3"
+                    }
+                ]
+            },
+            {
+                "name": "UK IRC 23-25 Juin",
+                "crew": [
+                    {
+                        "name": "Course",
+                        "role": "Annulé"
+                    }
+                ]
+            },
+            {
+                "name": "Malham 25/27 Mai",
+                "crew": [
+                    {
+                        "name": "JH",
+                        "role": "Barre"
+                    },
+                    {
+                        "name": "MA",
+                        "role": "Barre"
+                    },
+                    {
+                        "name": "JFH",
+                        "role": "GV"
+                    },
+                    {
+                        "name": "JBV",
+                        "role": "Navigateur"
+                    },
+                    {
+                        "name": "ND",
+                        "role": "#3"
+                    },
+                    {
+                        "name": "FB",
+                        "role": "#3"
+                    }
+                ]
+            },
+            {
+                "name": "Morgan 9/11 Juin",
+                "crew": [
+                    {
+                        "name": "JH",
+                        "role": "Barre"
+                    },
+                    {
+                        "name": "MA",
+                        "role": "Barre"
+                    },
+                    {
+                        "name": "BA",
+                        "role": "GV"
+                    },
+                    {
+                        "name": "LB",
+                        "role": "GV"
+                    },
+                    {
+                        "name": "JA",
+                        "role": "Navigateur"
+                    },
+                    {
+                        "name": "ND",
+                        "role": "#3"
+                    },
+                    {
+                        "name": "AD",
+                        "role": "#3"
+                    }
+                ]
+            },
+            {
+                "name": "Cowes / Dinard 7/9 Juillet",
+                "crew": [
+                    {
+                        "name": "JH",
+                        "role": "Barre"
+                    },
+                    {
+                        "name": "MA",
+                        "role": "Barre"
+                    },
+                    {
+                        "name": "LB",
+                        "role": "GV"
+                    },
+                    {
+                        "name": "JFH",
+                        "role": "GV"
+                    },
+                    {
+                        "name": "JBV",
+                        "role": "Navigateur"
+                    },
+                    {
+                        "name": "BA",
+                        "role": "#3"
+                    },
+                    {
+                        "name": "JA",
+                        "role": "#3"
+                    }
+                ]
+            },
+            {
+                "name": "Fastnet 4/12 Août",
+                "crew": [
+                    {
+                        "name": "JH",
+                        "role": "Barre"
+                    },
+                    {
+                        "name": "MA",
+                        "role": "Barre"
+                    },
+                    {
+                        "name": "LB",
+                        "role": "GV"
+                    },
+                    {
+                        "name": "JFH",
+                        "role": "GV"
+                    },
+                    {
+                        "name": "JBV",
+                        "role": "Navigateur"
+                    },
+                    {
+                        "name": "ND",
+                        "role": "#3"
+                    },
+                    {
+                        "name": "AA",
+                        "role": "#3"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "year": "2016",
+        "data": [
+
+        ]
+    },
+    {
+        "year": "2014",
+        "data": [
+            
+        ]
+    },
+    {
+        "year": "2013",
+        "data": [
+            
+        ]
+    },
+    {
+        "year": "2012",
+        "data": [
+            
+        ]
+    },
+    {
+        "year": "2011",
+        "data": [
+            
+        ]
+    },
+    {
+        "year": "2010",
+        "data": [
+            
+        ]
+    },
+    {
+        "year": "2009",
+        "data": [
+            
+        ]
+    },
+    {
+        "year": "2009",
+        "data": [
+            
+        ]
+    },
+    {
+        "year": "2008",
+        "data": [
+            
+        ]
+    },
+    {
+        "year": "2007",
+        "data": [
+            
+        ]
+    },
+    {
+        "year": "2006",
+        "data": [
+            
+        ]
+    },
+    {
+        "year": "2005",
+        "data": [
+            
+        ]
+    },
+    {
+        "year": "2004",
+        "data": [
+            
+        ]
+    },
+    {
+        "year": "2003",
+        "data": [
+            
+        ]
+    }
+]

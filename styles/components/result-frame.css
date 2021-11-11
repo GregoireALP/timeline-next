@@ -1,0 +1,76 @@
+.result-frame-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.result-frame-image-container {
+    width: 35vw;
+    height: 60vh;
+    position: relative;
+}
+
+.result-frame-image-description {
+    font-family: "Bank Ghotic";
+    color: white;
+    font-size: 17px;
+    position: relative;
+    bottom: 45px;
+}
+
+.result-frame-image {
+    width: 100%;
+    height: 100%;
+    position: relative !important;
+    object-fit: cover;
+
+    border-radius: 25px;
+}
+
+.result-frame-subtitle {
+    font-family: "Bank Ghotic";
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.result-frame {
+    margin: 3rem;
+    margin-bottom: 5rem;
+}
+
+.result-description {
+    font-family: "Bank Ghotic";
+    color: white;
+    font-size: 25px;
+}
+
+table.steelBlueCols {
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+table.steelBlueCols tbody td {
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 300ms;
+}
+
+table.steelBlueCols tbody td:hover {
+    background-color: #003057;
+}
+
+table.steelBlueCols thead th {
+    font-size: 20px;
+    font-family: "Bank Ghotic";
+    background-color: #001d35;
+    color: #FFFFFF;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}

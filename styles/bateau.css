@@ -1,0 +1,17 @@
+.boat-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boat-item {
+    font-family: "Bank Ghotic";
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.boat-item:hover {
+    transform: scale(1.05);
+}

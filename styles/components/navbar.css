@@ -1,0 +1,122 @@
+
+/***************************Navbar**************************/
+.navbar {
+    display: grid;
+    grid-template-columns: 25% 75%;
+
+    height: 100px;
+    width: 100%;
+
+    background-color: #00233F;
+    color: white;
+
+    box-shadow: 0px 5px 35px 30px rgba(0, 0, 0, 0.25);
+}
+
+.nav-item {
+    color: currentColor;
+    text-decoration: none;
+
+    padding: 1rem;
+
+    border-radius: 5px;
+    background-color: #00233F;
+
+    font-family: 'Bank Ghotic';
+    transition: 300ms;
+    font-size: 25px;
+}
+
+.nav-item:hover {
+    filter: brightness(1.5);
+}
+
+.navbar-navigation {
+    width: 100%;
+    display: flex;
+    line-height: 100px;
+
+    justify-content: space-around;
+}
+
+.navbar-decoration {
+    max-width: 100%;
+    text-align: center;
+}
+
+.navbar-title {
+    display: inline-block;
+
+    max-width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+    letter-spacing: 4px;
+
+    font-size: 60px;
+    font-family: "Bank Ghotic";
+    color: white;
+}
+
+.navbar-subtitle {
+    display: inline-block;
+
+    max-width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+
+    font-size: 25px;
+    font-family: "Bank Ghotic";
+    letter-spacing: 4.5px;
+
+    color: white; 
+}
+
+@media screen and (max-width: 1084px) {
+
+    .navbar-title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1084px) {
+
+    .navbar-title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    .navbar-subtitle {
+        display: none;
+    }
+
+    .navbar-title {
+        visibility: hidden;
+        position: relative;
+    }
+
+    .navbar-title:after {
+        visibility: visible;
+        content: "TL";
+
+        display: block;
+        position: absolute;
+
+        top: 0px;
+
+        padding-left: 15px;
+    
+        text-decoration: none;
+        letter-spacing: 4px;
+    
+        font-size: 100px;
+        font-family: "Bank Ghotic";
+        color: white;
+    }
+}

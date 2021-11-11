@@ -1,0 +1,117 @@
+[
+    {
+        "name": "MA",
+        "photo": "ma",
+        "isCurrent": true
+    },
+    {
+        "name": "JH",
+        "photo": "jh2",
+        "isCurrent": true
+    },
+    {
+        "name": "JFH",
+        "photo": "jfh",
+        "isCurrent": false
+    },
+    {
+        "name": "BA",
+        "photo": "ba",
+        "isCurrent": false
+    },
+    {
+        "name": "CR",
+        "photo": "cr",
+        "isCurrent": false
+    },
+    {
+        "name": "JBV",
+        "photo": "jbv",
+        "isCurrent": false
+    },
+    {
+        "name": "ND",
+        "photo": "nico",
+        "isCurrent": false
+    },
+    {
+        "name": "FB",
+        "photo": "fb2",
+        "isCurrent": false
+    },
+    {
+        "name": "JA",
+        "photo": "ja2",
+        "isCurrent": false
+    },
+    {
+        "name": "EW",
+        "photo": "ew",
+        "isCurrent": false
+    },
+    {
+        "name": "AR",
+        "photo": "ar",
+        "isCurrent": false
+    },
+    {
+        "name": "AD",
+        "photo": "AD",
+        "isCurrent": false
+    },
+    {
+        "name": "AA",
+        "photo": "aa",
+        "isCurrent": false
+    },
+    {
+        "name": "MCP",
+        "photo": "mcp",
+        "isCurrent": false
+    },
+    {
+        "name": "TO",
+        "photo": "to",
+        "isCurrent": false
+    },
+    {
+        "name": "YR",
+        "photo": "yr",
+        "isCurrent": false
+    },
+    {
+        "name": "JR",
+        "photo": "jr",
+        "isCurrent": false
+    },
+    {
+        "name": "MB",
+        "photo": "mb",
+        "isCurrent": false
+    },
+    {
+        "name": "ALR",
+        "photo": "alr",
+        "isCurrent": false
+    },
+    {
+        "name": "SV",
+        "photo": "sv",
+        "isCurrent": false
+    },
+    {
+        "name": "GC",
+        "photo": "gc2",
+        "isCurrent": false
+    },
+    {
+        "name": "SM",
+        "photo": "sm",
+        "isCurrent": false
+    },
+    {
+        "name": "FXG",
+        "photo": "fxg",
+        "isCurrent": false
+    }
+]
