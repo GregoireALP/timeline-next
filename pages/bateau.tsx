@@ -1,9 +1,8 @@
 import type { NextPage } from 'next'
 import { useState } from 'react';
-import Navbar from '../components/navbar'
 import BoatCard from '../components/boatCard';
 import BoatData from "../json/BoatData.json"
-import Footer from '../components/footer';
+import Layout from '../components/layout';
 
 const Bateau: NextPage = () => {
 
@@ -52,74 +51,74 @@ const Bateau: NextPage = () => {
     ); // Set default boat view
 
     return (
-        <div>
-            <Navbar />
-            <p className="title">Les Bateaux</p>
+        <Layout title="Timeline | Bateau">
+            <div>
+                <p className="title">Les Bateaux</p>
 
-            <ul className="boat-list">
-                <li className="boat-item" onClick={() => setboat(
-                    <BoatCard
-                        boatName={BoatData[2][0]}
-                        boatType={BoatData[2][1]}
-                        gvSize={BoatData[2][2]}
-                        genSize={BoatData[2][3]}
-                        spiSize={BoatData[2][4]}
-                        boatWidth={BoatData[2][5]}
-                        boatFloatHeight={BoatData[2][6]}
-                        maxBau={BoatData[2][7]}
-                        boatDraft={BoatData[2][8]}
-                        lest={BoatData[2][9]}
-                        boatHeight={BoatData[2][10]}
-                        motorType={BoatData[2][11]}
-                        boatPlan={BoatData[2][12]}
-                        boatImg={BoatData[2][13]}
-                    />
-                )}>Timeline</li>
+                <ul className="boat-list">
+                    <li className="boat-item" onClick={() => setboat(
+                        <BoatCard
+                            boatName={BoatData[2][0]}
+                            boatType={BoatData[2][1]}
+                            gvSize={BoatData[2][2]}
+                            genSize={BoatData[2][3]}
+                            spiSize={BoatData[2][4]}
+                            boatWidth={BoatData[2][5]}
+                            boatFloatHeight={BoatData[2][6]}
+                            maxBau={BoatData[2][7]}
+                            boatDraft={BoatData[2][8]}
+                            lest={BoatData[2][9]}
+                            boatHeight={BoatData[2][10]}
+                            motorType={BoatData[2][11]}
+                            boatPlan={BoatData[2][12]}
+                            boatImg={BoatData[2][13]}
+                        />
+                    )}>Timeline</li>
 
-                <li className="boat-item" onClick={() => setboat(
-                    <BoatCard
-                        boatName={BoatData[1][0]}
-                        boatType={BoatData[1][1]}
-                        gvSize={BoatData[1][2]}
-                        genSize={BoatData[1][3]}
-                        spiSize={BoatData[1][4]}
-                        boatWidth={BoatData[1][5]}
-                        boatFloatHeight={BoatData[1][6]}
-                        maxBau={BoatData[1][7]}
-                        boatDraft={BoatData[1][8]}
-                        lest={BoatData[1][9]}
-                        boatHeight={BoatData[1][10]}
-                        motorType={BoatData[1][11]}
-                        boatPlan={BoatData[1][12]}
-                        boatImg={BoatData[1][13]}
-                    />
-                )}>Primetime</li>
+                    <li className="boat-item" onClick={() => setboat(
+                        <BoatCard
+                            boatName={BoatData[1][0]}
+                            boatType={BoatData[1][1]}
+                            gvSize={BoatData[1][2]}
+                            genSize={BoatData[1][3]}
+                            spiSize={BoatData[1][4]}
+                            boatWidth={BoatData[1][5]}
+                            boatFloatHeight={BoatData[1][6]}
+                            maxBau={BoatData[1][7]}
+                            boatDraft={BoatData[1][8]}
+                            lest={BoatData[1][9]}
+                            boatHeight={BoatData[1][10]}
+                            motorType={BoatData[1][11]}
+                            boatPlan={BoatData[1][12]}
+                            boatImg={BoatData[1][13]}
+                        />
+                    )}>Primetime</li>
 
-                <li className="boat-item" onClick={() => setboat(
-                    <BoatCard
-                        boatName={BoatData[0][0]}
-                        boatType={BoatData[0][1]}
-                        gvSize={BoatData[0][2]}
-                        genSize={BoatData[0][3]}
-                        spiSize={BoatData[0][4]}
-                        boatWidth={BoatData[0][5]}
-                        boatFloatHeight={BoatData[0][6]}
-                        maxBau={BoatData[0][7]}
-                        boatDraft={BoatData[0][8]}
-                        lest={BoatData[0][9]}
-                        boatHeight={BoatData[0][10]}
-                        motorType={BoatData[0][11]}
-                        boatPlan={BoatData[0][12]}
-                        boatImg={BoatData[0][13]}
-                    />
-                )}>Xtratime</li>
-            </ul>
+                    <li className="boat-item" onClick={() => setboat(
+                        <BoatCard
+                            boatName={BoatData[0][0]}
+                            boatType={BoatData[0][1]}
+                            gvSize={BoatData[0][2]}
+                            genSize={BoatData[0][3]}
+                            spiSize={BoatData[0][4]}
+                            boatWidth={BoatData[0][5]}
+                            boatFloatHeight={BoatData[0][6]}
+                            maxBau={BoatData[0][7]}
+                            boatDraft={BoatData[0][8]}
+                            lest={BoatData[0][9]}
+                            boatHeight={BoatData[0][10]}
+                            motorType={BoatData[0][11]}
+                            boatPlan={BoatData[0][12]}
+                            boatImg={BoatData[0][13]}
+                        />
+                    )}>Xtratime</li>
+                </ul>
 
-            <div className="boat-container">
-                {boat}
+                <div className="boat-container">
+                    {boat}
+                </div>
             </div>
-            <Footer />
-        </div>
+        </Layout>
     )
 }
 

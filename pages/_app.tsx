@@ -6,6 +6,7 @@ import '../styles/globals.css'
 import '../styles/news.css'
 import '../styles/bateau.css'
 import '../styles/footer.css'
+import '../styles/blog.css'
 
 import "../styles/components/navbar.css"
 import "../styles/components/result-frame.css"

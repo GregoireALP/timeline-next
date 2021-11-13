@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import { useEffect, useState } from 'react'
-import Footer from '../components/footer'
-import Navbar from '../components/navbar'
+import Layout from '../components/layout'
 import ResultFrame from '../components/resultFrame'
 import { ResultFramePropsType } from '../core/Types'
 import BoatResult from "../json/BoatResults.json"
@@ -35,23 +34,24 @@ const Resultats: NextPage = () => {
     }, [])
 
     return (
-        <div>
-            <Navbar />
-            <p className="title">Les Résultats</p>
-            {stateOptions.map(function (data, index) {
-                return (
-                    <ResultFrame
-                        boat={data.boat}
-                        description={data.description}
-                        img={data.img}
-                        imgDescription={data.imgDescription}
-                        regatas={data.regatas}
-                        year={data.year}
-                    />
-                )
-            })}
-            <Footer/>
-        </div>
+        <Layout title="Timeline | Résultats">
+            <div>
+                <p className="title">Les Résultats</p>
+                <br />
+                {stateOptions.map(function (data, index) {
+                    return (
+                        <ResultFrame
+                            boat={data.boat}
+                            description={data.description}
+                            img={data.img}
+                            imgDescription={data.imgDescription}
+                            regatas={data.regatas}
+                            year={data.year}
+                        />
+                    )
+                })}
+            </div>
+        </Layout>
     )
 }
 

@@ -9,9 +9,11 @@
     color: white;
     font-size: 25px;
     cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
     transition: 200ms;
 }
 
 .boat-item:hover {
-    transform: scale(1.05);
+    background-color: #00294b;
 }

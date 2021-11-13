@@ -19,3 +19,9 @@ export type NewsType = {
     dat: string;
     txt: string;
 }
+
+export type NewsDataType = {
+    tit: string;
+    ico: string;
+    dat: string
+}

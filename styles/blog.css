@@ -1,0 +1,19 @@
+.blog-date-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.blog-date-list li {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.blog-date-list li:hover {
+    background-color: #00294b;
+}
