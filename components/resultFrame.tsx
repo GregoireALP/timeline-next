@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Link from "next/link"
 import Image from 'next/image'
 import { IMAGE_GALLERY_PATH } from '../core/Paths'
 import { RegataType } from '../core/Types'
@@ -41,7 +42,7 @@ const ResultFrame: NextPage<IProps> = (props) => {
                                 return (
                                     <tr>
                                         <td>{data.name}</td>
-                                        <td>{data.file}</td>
+                                        <td>{data.file + ".pdf"}</td>
                                     </tr>
                                 )
                             })}

@@ -1,5 +1,7 @@
 import type { NextPage } from "next"
+import { useState } from "react"
 import Layout from "../components/layout"
+import NewsNavigator from "../components/newsNavigator"
 
 interface IProps {
     dateSpan: number[];
@@ -7,16 +9,19 @@ interface IProps {
 
 const Blog: NextPage<IProps> = ({ dateSpan }) => {
 
+    const [year, setyear] = useState("2021")
+
     return (
         <Layout title="Timeline | Blog">
             <div className="blog">
                 <p className="title">Blog</p>
                 <ul className="blog-date-list">
                     {dateSpan.map(function (item) {
-                        return (<li key={item}>{item}</li>)
+                        return (<li key={item} onClick={() => { setyear(item.toString()) }}>{item}</li>)
                     })}
                 </ul>
             </div>
+            <NewsNavigator year={year} />
         </Layout>
     )
 }
