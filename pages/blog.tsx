@@ -2,10 +2,13 @@ import type { NextPage } from "next"
 import { useState } from "react"
 import Layout from "../components/layout"
 import NewsNavigator from "../components/newsNavigator"
+import getConfig from "next/config"
 
 interface IProps {
     dateSpan: number[];
 }
+
+const { publicRuntimeConfig } =  getConfig();
 
 const Blog: NextPage<IProps> = ({ dateSpan }) => {
 
@@ -28,7 +31,7 @@ const Blog: NextPage<IProps> = ({ dateSpan }) => {
 
 Blog.getInitialProps = async (ctx) => {
 
-    const res = await fetch('http://localhost:3000/api/public/dateSpan')
+    const res = await fetch('http://' + publicRuntimeConfig.host + '/api/public/dateSpan')
     const json = await res.json()
     const dates: any[] = json.result
     return { dateSpan: Array.from(new Set(dates)).sort() }

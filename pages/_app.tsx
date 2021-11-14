@@ -12,6 +12,7 @@ import "../styles/components/navbar.css"
 import "../styles/components/result-frame.css"
 import "../styles/components/boat-card.css"
 import "../styles/components/video-card.css"
+import "../styles/components/news.css"
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />

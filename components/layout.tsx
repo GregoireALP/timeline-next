@@ -19,8 +19,8 @@ const Layout: NextPage<IProps> = ({ children, title = "Timelime" }) => {
             <body>
                 <Navbar />
                 {children}
-                <Footer />
             </body>
+            <Footer/>
         </html>
     )
 }

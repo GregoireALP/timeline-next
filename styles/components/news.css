@@ -1,0 +1,44 @@
+.navigator-title {
+    font-family: "Bank Ghotic";
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-navigator {
+    display: grid;
+    grid-template-columns: 27% 27% 27%;
+    grid-gap: 5%;
+    justify-content: center;
+    margin-bottom: 800px;
+}
+
+.news-card {
+    width: 100%;
+    height: 100%;
+    background-color: #001d35;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+
+.news-card:hover {
+    filter: brightness(1.05);
+}
+
+.news-card-tit {
+    color: white;
+    font-family: "Bank Ghotic";
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    margin: 1rem 0rem 0.2rem 0.2rem;
+}
+
+.news-card-dat {
+    color: white;
+    font-family: "Bank Ghotic";
+    font-size: 20px;
+    text-align: center;
+}

@@ -7,5 +7,8 @@ module.exports = {
     database: "timeline",
     user: "root",
     password: ""
+  },
+  publicRuntimeConfig: {
+    host: "localhost:3000"
   }
 }
