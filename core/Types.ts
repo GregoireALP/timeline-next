@@ -26,3 +26,8 @@ export type NewsDataType = {
     dat: string;
     id: string;
 }
+
+export type LoginBodyType = {
+    ema: string;
+    pwd: string;
+}

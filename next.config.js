@@ -6,7 +6,11 @@ module.exports = {
     port: 3306,
     database: "timeline",
     user: "root",
-    password: ""
+    password: "",
+    cookie: {
+      secret: "2tZChI8yRAIqUZH6",
+      name: "timeline"
+    }
   },
   publicRuntimeConfig: {
     host: "localhost:3000"

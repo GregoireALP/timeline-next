@@ -18,42 +18,35 @@ const Article: NextPage = () => {
         tit: "NULL",
         txt: "NULL"
     })
-    const [loading, setloading] = useState(false)
     const { id } = router.query
 
     useEffect(() => {
         async function asyncFectching() {
-            setloading(true)
-            const res = await fetch('http://' + publicRuntimeConfig.host + '/api/public/newsContentById?id=' + id)
-            const json = await res.json()
-            console.log(json)
-            const news = json.result[0]
-            setdata({
-                dat: news.dat,
-                ico: news.ico,
-                sum: news.sum,
-                tit: news.tit,
-                txt: news.txt
-            })
-            setloading(false)
+            try {
+                const res = await fetch('http://' + publicRuntimeConfig.host + '/api/public/newsContentById?id=' + id)
+                const json = await res.json()
+                console.log(json)
+                const news = json.result[0]
+                setdata({
+                    dat: news.dat,
+                    ico: news.ico,
+                    sum: news.sum,
+                    tit: news.tit,
+                    txt: news.txt
+                })
+            } catch(err) {
+                console.log(err)
+            }
         }
 
         asyncFectching()
     }, [])
 
-    if(loading) {
-        return(
-            <Layout title={"Chargement..."}>
-                <Loading></Loading>
-            </Layout>
-        )
-    } else {
-        return (
-            <Layout title={"Timeline | " + id}>
-                <News data={data}/>
-            </Layout>
-        )
-    }
+    return (
+        <Layout title={"Timeline | " + id}>
+            <News data={data}/>
+        </Layout>
+    )
 }
 
 export default Article
