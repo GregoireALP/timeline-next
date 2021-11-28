@@ -1,596 +1,600 @@
 [
-    {
-        "year": "2020",
-        "description": "LOREM ISPUM",
-        "image": "other-for-results/spi",
-        "image-description": "Départ 3ème manche Spi Ouest France",
-        "boat": "Timeline",
-        "regatas": [
-            {
-                "name":"Armen Race",
-                "file": "armen2020"
-            },
-            {
-                "name": "Spi Ouest-France (Double Handed)",
-                "file": "spi2020"
-            }
-        ]
-    },
-    {
-        "year": "2019",
-        "description": "Première saison de double, un bon début puis un abandon au Fastnet sur 'accident'",
-        "image": "malham2019",
-        "image-description": "Mythe of Malham 2019, 1er",
-        "boat": "Timeline",
-        "regatas": [
-            {
-                "name": "Spi Ouest-France",
-                "file": "spi2019"
-            },
-            {
-                "name": "Myth of Malham",
-                "file": "malham2019"
-            },
-            {
-                "name": "De Guingand",
-                "file": "deguingand2019"
-            },
-            {
-                "name": "Morgan Cup",
-                "file": "morgan2019"
-            },
-            {
-                "name": "Rolex Fastnet",
-                "file": "fastnet2019"
-            }
-        ]
-    },
-    {
-        "year": "2018",
-        "description": "La saison de trop en équipage.",
-        "image": "other-for-results/sangles",
-        "image-description": "Remise à l'eau de Timeline",
-        "boat": "Timeline",
-        "regatas": [
-            {
-                "name": "Spi Ouest-France",
-                "file": "spi2018"
-            },
-            {
-                "name": "IRC European Championship",
-                "file": "irceuropean2018"
-            },
-            {
-                "name": "Cowes / Dinard",
-                "file": "cowesdinard2018"
-            }
-        ]
-    },
-    {
-        "year": "2017",
-        "description": "Une Saison offshore.",
-        "image": "fastnet2017",
-        "image-description": "Rolex Fastnet 2017, 2nd",
-        "boat": "Timeline",
-        "regatas": [
-            {
-                "name": "Spi Ouest-France",
-                "file": "spi2017"
-            },
-            {
-                "name": "Myth of Malham",
-                "file": "malham2017"
-            },
-            {
-                "name": "Morgan Cup",
-                "file": "morgan2017"
-            },
-            {
-                "name": "Cowes / Dinard",
-                "file": "cowesdinard2017"
-            },
-            {
-                "name": "Rolex Fastnet",
-                "file": "fastnet2017"
-            }
-        ]
-    },
-    {
-        "year": "2016",
-        "description": "Timeline An 1.",
-        "image": "rcc_2016",
-        "image-description": "Brewin Dolphin Commodore's Cup 2016, 3ème Classe 2",
-        "boat": "Timeline",
-        "regatas": [
-            {
-                "name": "Spi Ouest-France",
-                "file": "spi2016"
-            },
-            {
-                "name": "Grand Prix du Crouesty",
-                "file": "gp2016"
-            },
-            {
-                "name": "UK IRC National",
-                "file": "ukirc2016"
-            },
-            {
-                "name": "Cowes / Dinard",
-                "file": "cowesdinard2016"
-            },
-            {
-                "name": "Brewin Dolphin Commodore's Cup",
-                "file": "rcc2016"
-            }
-        ]
-    },
-    {
-        "year": "2014",
-        "description": "Petite saison où l'on a peu investi car nous pensions changer de bateau, un podium au Tourduf",
-        "image": "IMG_0666",
-        "image-description": "Tour du Finistère 2014, 2nd",
-        "boat": "Prime-Time",
-        "regatas": [
-            {
-                "name": "Spi Ouest-France",
-                "file": "spi2014"
-            },
-            {
-                "name": "Tour de Belle Ile",
-                "file": "belleile2014"
-            },
-            {
-                "name": "Armen Race",
-                "file": "armen2014"
-            },
-            {
-                "name": "Tourduf",
-                "file": "tourduf2014"
-            }
-        ]
-    },
-    {
-        "year": "2013",
-        "description": "De la Giraglia au Fastnet. Une victoire au Trophée Med, deux bonnes courses du RORC mais des échecs aux deux grandes offshores Giraglia et Fastnet.",
-        "image": "2013-03-17 11.33.56",
-        "image-description": "Massalia Lexus Cup 2013, 1er",
-        "boat": "Prime-Time",
-        "regatas": [
-            {
-                "name": "Massilia Lexus Cup",
-                "file": "massilia2013"
-            },
-            {
-                "name": "SNIM",
-                "file": "snim2013"
-            },
-            {
-                "name": "Semaine de Porquerolles",
-                "file": "porquerolles2013"
-            },
-            {
-                "name": "Giraglia",
-                "file": "giraoffshore2013"
-            },
-            {
-                "name": "Cowes / Dinard",
-                "file": "cowesdinard2013"
-            },
-            {
-                "name": "Channel Race",
-                "file": "channel2013"
-            },
-            {
-                "name": "Rolex Fastnet",
-                "file": "fastnet2013"
-            }
-        ]
-    },
-    {
-        "year": "2012",
-        "description": "Victoires à Aigues Mortes, la Massilia, la SNIM, Porquerolles et au Trophée Med.",
-        "image": "IMG_0406",
-        "image-description": "Trophée IRC Aigues Mortes 2012, 1er",
-        "boat": "Prime-Time",
-        "regatas": [
-            {
-                "name": "Trophée IRC Aigues Mortes",
-                "file": "aiguesmortes2012"
-            },
-            {
-                "name": "Massilia Lexus Cup",
-                "file": "massilia2012"
-            },
-            {
-                "name": "SNIM",
-                "file": "snim2012"
-            },
-            {
-                "name": "Semaine de Porquerolles",
-                "file": "porquerolles2012"
-            },
-            {
-                "name": "Giraglia",
-                "file": "giraoffshore2012"
-            },
-            {
-                "name": "Tour de Corse",
-                "file": "tourdecorse2012"
-            },
-            {
-                "name": "Trophée Sémac",
-                "file": "semac2012"
-            }
-        ]
-    },
-    {
-        "year": "2011",
-        "description": "Première saison dans le sud. 4 podiums dont une victoire, beaucoup de plaisir.",
-        "image": "DSC00577",
-        "image-description": "Tour de Corse 2011, 1er",
-        "boat": "Prime-Time",
-        "regatas": [
-            {
-                "name": "Challenge de Printemps",
-                "file": "snt2011"
-            },
-            {
-                "name": "Massilia Lexus Cup",
-                "file": "massilia2011"
-            },
-            {
-                "name": "SNIM",
-                "file": "snim2011"
-            },
-            {
-                "name": "Semaine de Porquerolles",
-                "file": "porquerolles2011"
-            },
-            {
-                "name": "Rolex Cup",
-                "file": ""
-            },
-            {
-                "name": "Giraglia",
-                "file": "giraoffshore2011"
-            },
-            {
-                "name": "Tour de Corse",
-                "file": "tourdecorse2011"
-            }
-        ]
-    },
-    {
-        "year": "2010",
-        "description": "L'année médiocre avec une Commodore's ratée.",
-        "image": "02052010058",
-        "image-description": "Obélix 2010, 3ème",
-        "boat": "Prime-Time",
-        "regatas": [
-            {
-                "name": "Spi Ouest-France",
-                "file": "spi2010"
-            },
-            {
-                "name": "Course des 3 Iles",
-                "file": "3iles2010"
-            },
-            {
-                "name": "Obelix Trophy",
-                "file": "obelix2010"
-            },
-            {
-                "name": "Grand Prix du Crouesty",
-                "file": "gp2010"
-            },
-            {
-                "name": "UK IRC National",
-                "file": "ukirc2010"
-            },
-            {
-                "name": "Rolex Commodore's Cup",
-                "file": "rcc2010"
-            }
-        ]
-    },
-    {
-        "year": "2009",
-        "description": "Victoire au Spi, à l'Obelix et au Fastnet. Ce sera difficile de faire mieux.",
-        "image": "other-for-results/fastnet",
-        "image-description": "Rolex Fastnet 2009, 1er",
-        "boat": "Prime-Time",
-        "regatas": [
-            {
-                "name": "Spi Ouest-France",
-                "file": "spi2009"
-            },
-            {
-                "name": "Obelix Trophy",
-                "file": "obelix2009"
-            },
-            {
-                "name": "Morgan Cup",
-                "file": "morgan2009"
-            },
-            {
-                "name": "Cowes / Dinard",
-                "file": "cowesdinard2009"
-            },
-            {
-                "name": "Channel Race",
-                "file": "channel2009"
-            },
-            {
-                "name": "Rolex Fastnet",
-                "file": "fastnet2009"
-            },
-            {
-                "name": "Atlantique le Télégramme",
-                "file": "trophee2009"
-            }
-        ]
-    },
-    {
-        "year": "2008",
-        "description": "Prime Time, an 1. Une deuxième place au Spi perdue sur un OCS, 3 podiums au Trophée Atlantique, meilleur bateau français à la Commodore's, des échecs en offshore..",
-        "image": "dscn0910",
-        "image-description": "Rolex Commodore's Cup 2008, 3ème Classe 3",
-        "boat": "Prime-Time",
-        "regatas": [
-            {
-                "name": "Spi Ouest-France",
-                "file": "spi2008"
-            },
-            {
-                "name": "Obelix Trophy",
-                "file": "obelix2008"
-            },
-            {
-                "name": "Grand Prix du Crouesty",
-                "file": "gp2008"
-            },
-            {
-                "name": "UK IRC Championship",
-                "file": "ukirc2008"
-            },
-            {
-                "name": "Rolex Commodore's Cup",
-                "file": "rcc2008"
-            },
-            {
-                "name": "La Trinité / Lorient",
-                "file": "latrinitelorient2008"
-            },
-            {
-                "name": "Atlantique le Télégramme",
-                "file": "lorient2008"
-            },
-            {
-                "name": "Trophée Atlantique",
-                "file": "trophee2008"
-            }
-        ]
-    },
-    {
-        "year": "2007",
-        "description": "La plus belle, victoire au Challenge de Printemps, au Spi Ouest-France, à l'Obelix, à l'Atlantique le Télégramme et par conséquent notre seconde victoire au Trophée Atlantique.",
-        "image": "P4140005",
-        "image-description": "Obélix 2007, 1er",
-        "boat": "Xtra-Time",
-        "regatas": [
-            {
-                "name": "Challenge de Printemps",
-                "file": "printemps2007"
-            },
-            {
-                "name": "Trophée Atlantique",
-                "file": "trophee2007"
-            },
-            {
-                "name": "Spi Ouest-France",
-                "file": "spi2007"
-            },
-            {
-                "name": "Obelix Trophy",
-                "file": "obelix2007"
-            },
-            {
-                "name": "Grand Prix du Crouesty",
-                "file": "gp2007"
-            },
-            {
-                "name": "Cowes / Dinard",
-                "file": "cowesdinard2007"
-            },
-            {
-                "name": "La Trinité / Lorient",
-                "file": "latrinitelorient2007"
-            },
-            {
-                "name": "Atlantique le Télégramme",
-                "file": "lorient2007"
-            }
-        ]
-    },
-    {
-        "year": "2006",
-        "description": "Cela aurait probablement été une très bonne saison au Trophée Atlantique, avec un un bon spi et un bon GP, nous n'avons malheureusement pas pu participer à l'Atlantique...",
-        "image": "other-for-results/IMG_1996",
-        "image-description": "Hivernage Xtra-time 2006",
-        "boat": "Xtra-Time",
-        "regatas": [
-            {
-                "name": "Trophée Atlantique",
-                "file": "trophee2006"
-            },
-            {
-                "name": "Spi Ouest-France",
-                "file": "spi2006"
-            },
-            {
-                "name": "Obelix Trophy",
-                "file": "obelix2006"
-            },
-            {
-                "name": "Challenge de Printemps",
-                "file": "printemps2006"
-            },
-            {
-                "name": "Grand Prix du Crouesty",
-                "file": "gp2006"
-            },
-            {
-                "name": "Cowes / Dinard",
-                "file": "cowesdinard2006"
-            }
-        ]
-    },
-    {
-        "year": "2005",
-        "description": "Une très bonne année pour le RORC, correcte en Atlantique, deux podiums que nous lachons lors des dernières manches de l'Obelix et de Lorient.",
-        "image": "other-for-results/spi2005",
-        "image-description": "Spi Ouest France, 2005",
-        "boat": "Xtra-Time",
-        "regatas": [
-            {
-                "name": "Trophée Atlantique",
-                "file": "trophee2005"
-            },
-            {
-                "name": "Atlantique le Télégramme",
-                "file": "lorient2005"
-            },
-            {
-                "name": "Cowes / Dinard",
-                "file": "cowesdinard2005"
-            },
-            {
-                "name": "Morgan Cup",
-                "file": "morgan2005"
-            },
-            {
-                "name": "Myth of Malham",
-                "file": "malham2005"
-            },
-            {
-                "name": "Grand Prix du Crouesty",
-                "file": "gp2005"
-            }
-        ]
-    },
-    {
-        "year": "2004",
-        "description": "La première année du mat carbone et de l'IRC2 : des résultats moyens jusqu'au Grand prix du Crouesty puis un podium à Cowes.",
-        "image": "118_1877",
-        "image-description": "Semaine de Cowes 2004, 2nd",
-        "boat": "Xtra-Time",
-        "regatas": [
-            {
-                "name": "Trophée Atlantique",
-                "file": "trophee2004"
-            },
-            {
-                "name": "Atlantique le Télégramme",
-                "file": "lorient2004"
-            },
-            {
-                "name": "Semaine de Cowes",
-                "file": "cowes2004"
-            },
-            {
-                "name": "Grand Prix du Crouesty",
-                "file": "gp2004"
-            },
-            {
-                "name": "Obelix Trophy",
-                "file": "obelix2004"
-            },
-            {
-                "name": "Spi Ouest-France",
-                "file": "spi2004"
-            },
-            {
-                "name": "Challenge de Printemps",
-                "file": "printemps2004"
-            }
-        ]
-    },
-    {
-        "year": "2003",
-        "description": "L'année catastrophe : 2 0CS au Spi, rien de bien après.",
-        "image": "other-for-results/Carrene 2003-02",
-        "image-description": "Carennage hivers 2003",
-        "boat": "Xtra-Time",
-        "regatas": [
-            {
-                "name": "Trophée Atlantique",
-                "file": "trophee2003"
-            },
-            {
-                "name": "Atlantique le Télégramme",
-                "file": "lorient2003"
-            },
-            {
-                "name": "Double de Lorient",
-                "file": "double2003"
-            },
-            {
-                "name": "Grand Prix du Crouesty",
-                "file": "gp2003"
-            },
-            {
-                "name": "Obelix Trophy",
-                "file": "obelix2003"
-            },
-            {
-                "name": "Spi Ouest-France",
-                "file": "spi2003"
-            },
-            {
-                "name": "Challenge de Printemps",
-                "file": "printemps2003"
-            }
-        ]
-    },
-    {
-        "year": "2002",
-        "description": "Victoire au Trophée Atlantique, podium au Spi.",
-        "image": "Equipage GP 2002-1",
-        "image-description": "Trophée Atlantique 2002, 1er",
-        "boat": "Xtra-Time",
-        "regatas": [
-            {
-                "name": "Trophée Atlantique",
-                "file": "trophee2002"
-            },
-            {
-                "name": "Atlantique le Télégramme",
-                "file": "lorient2002"
-            },
-            {
-                "name": "Cork Week",
-                "file": "cork2002"
-            },
-            {
-                "name": "Double Lorient",
-                "file": "double2002"
-            },
-            {
-                "name": "Grand Prix du Crouesty",
-                "file": "gp2002"
-            },
-            {
-                "name": "Obelix Trophy",
-                "file": "obelix2002"
-            },
-            {
-                "name": "Spi Ouest-France",
-                "file": "spi2002"
-            },
-            {
-                "name": "Semaine de La Rochelle",
-                "file": "larochelle2002"
-            }
-        ]
-    }
+	{
+		"year": "2020",
+		"description": "LOREM ISPUM",
+		"image": "other-for-results/spi",
+		"image-description": "Départ 3ème manche Spi Ouest France",
+		"boat": "Timeline",
+		"regatas": [
+			{
+				"name": "Armen Race",
+				"file": "armen2020"
+			},
+			{
+				"name": "Spi Ouest-France (Double Handed)",
+				"file": "spi2020"
+			},
+			{
+				"name": "caca",
+				"file": "caca"
+			}
+		]
+	},
+	{
+		"year": "2019",
+		"description": "Première saison de double, un bon début puis un abandon au Fastnet sur 'accident'",
+		"image": "malham2019",
+		"image-description": "Mythe of Malham 2019, 1er",
+		"boat": "Timeline",
+		"regatas": [
+			{
+				"name": "Spi Ouest-France",
+				"file": "spi2019"
+			},
+			{
+				"name": "Myth of Malham",
+				"file": "malham2019"
+			},
+			{
+				"name": "De Guingand",
+				"file": "deguingand2019"
+			},
+			{
+				"name": "Morgan Cup",
+				"file": "morgan2019"
+			},
+			{
+				"name": "Rolex Fastnet",
+				"file": "fastnet2019"
+			}
+		]
+	},
+	{
+		"year": "2018",
+		"description": "La saison de trop en équipage.",
+		"image": "other-for-results/sangles",
+		"image-description": "Remise à l'eau de Timeline",
+		"boat": "Timeline",
+		"regatas": [
+			{
+				"name": "Spi Ouest-France",
+				"file": "spi2018"
+			},
+			{
+				"name": "IRC European Championship",
+				"file": "irceuropean2018"
+			},
+			{
+				"name": "Cowes / Dinard",
+				"file": "cowesdinard2018"
+			}
+		]
+	},
+	{
+		"year": "2017",
+		"description": "Une Saison offshore.",
+		"image": "fastnet2017",
+		"image-description": "Rolex Fastnet 2017, 2nd",
+		"boat": "Timeline",
+		"regatas": [
+			{
+				"name": "Spi Ouest-France",
+				"file": "spi2017"
+			},
+			{
+				"name": "Myth of Malham",
+				"file": "malham2017"
+			},
+			{
+				"name": "Morgan Cup",
+				"file": "morgan2017"
+			},
+			{
+				"name": "Cowes / Dinard",
+				"file": "cowesdinard2017"
+			},
+			{
+				"name": "Rolex Fastnet",
+				"file": "fastnet2017"
+			}
+		]
+	},
+	{
+		"year": "2016",
+		"description": "Timeline An 1.",
+		"image": "rcc_2016",
+		"image-description": "Brewin Dolphin Commodore's Cup 2016, 3ème Classe 2",
+		"boat": "Timeline",
+		"regatas": [
+			{
+				"name": "Spi Ouest-France",
+				"file": "spi2016"
+			},
+			{
+				"name": "Grand Prix du Crouesty",
+				"file": "gp2016"
+			},
+			{
+				"name": "UK IRC National",
+				"file": "ukirc2016"
+			},
+			{
+				"name": "Cowes / Dinard",
+				"file": "cowesdinard2016"
+			},
+			{
+				"name": "Brewin Dolphin Commodore's Cup",
+				"file": "rcc2016"
+			}
+		]
+	},
+	{
+		"year": "2014",
+		"description": "Petite saison où l'on a peu investi car nous pensions changer de bateau, un podium au Tourduf",
+		"image": "IMG_0666",
+		"image-description": "Tour du Finistère 2014, 2nd",
+		"boat": "Prime-Time",
+		"regatas": [
+			{
+				"name": "Spi Ouest-France",
+				"file": "spi2014"
+			},
+			{
+				"name": "Tour de Belle Ile",
+				"file": "belleile2014"
+			},
+			{
+				"name": "Armen Race",
+				"file": "armen2014"
+			},
+			{
+				"name": "Tourduf",
+				"file": "tourduf2014"
+			}
+		]
+	},
+	{
+		"year": "2013",
+		"description": "De la Giraglia au Fastnet. Une victoire au Trophée Med, deux bonnes courses du RORC mais des échecs aux deux grandes offshores Giraglia et Fastnet.",
+		"image": "2013-03-17 11.33.56",
+		"image-description": "Massalia Lexus Cup 2013, 1er",
+		"boat": "Prime-Time",
+		"regatas": [
+			{
+				"name": "Massilia Lexus Cup",
+				"file": "massilia2013"
+			},
+			{
+				"name": "SNIM",
+				"file": "snim2013"
+			},
+			{
+				"name": "Semaine de Porquerolles",
+				"file": "porquerolles2013"
+			},
+			{
+				"name": "Giraglia",
+				"file": "giraoffshore2013"
+			},
+			{
+				"name": "Cowes / Dinard",
+				"file": "cowesdinard2013"
+			},
+			{
+				"name": "Channel Race",
+				"file": "channel2013"
+			},
+			{
+				"name": "Rolex Fastnet",
+				"file": "fastnet2013"
+			}
+		]
+	},
+	{
+		"year": "2012",
+		"description": "Victoires à Aigues Mortes, la Massilia, la SNIM, Porquerolles et au Trophée Med.",
+		"image": "IMG_0406",
+		"image-description": "Trophée IRC Aigues Mortes 2012, 1er",
+		"boat": "Prime-Time",
+		"regatas": [
+			{
+				"name": "Trophée IRC Aigues Mortes",
+				"file": "aiguesmortes2012"
+			},
+			{
+				"name": "Massilia Lexus Cup",
+				"file": "massilia2012"
+			},
+			{
+				"name": "SNIM",
+				"file": "snim2012"
+			},
+			{
+				"name": "Semaine de Porquerolles",
+				"file": "porquerolles2012"
+			},
+			{
+				"name": "Giraglia",
+				"file": "giraoffshore2012"
+			},
+			{
+				"name": "Tour de Corse",
+				"file": "tourdecorse2012"
+			},
+			{
+				"name": "Trophée Sémac",
+				"file": "semac2012"
+			}
+		]
+	},
+	{
+		"year": "2011",
+		"description": "Première saison dans le sud. 4 podiums dont une victoire, beaucoup de plaisir.",
+		"image": "DSC00577",
+		"image-description": "Tour de Corse 2011, 1er",
+		"boat": "Prime-Time",
+		"regatas": [
+			{
+				"name": "Challenge de Printemps",
+				"file": "snt2011"
+			},
+			{
+				"name": "Massilia Lexus Cup",
+				"file": "massilia2011"
+			},
+			{
+				"name": "SNIM",
+				"file": "snim2011"
+			},
+			{
+				"name": "Semaine de Porquerolles",
+				"file": "porquerolles2011"
+			},
+			{
+				"name": "Rolex Cup",
+				"file": ""
+			},
+			{
+				"name": "Giraglia",
+				"file": "giraoffshore2011"
+			},
+			{
+				"name": "Tour de Corse",
+				"file": "tourdecorse2011"
+			}
+		]
+	},
+	{
+		"year": "2010",
+		"description": "L'année médiocre avec une Commodore's ratée.",
+		"image": "02052010058",
+		"image-description": "Obélix 2010, 3ème",
+		"boat": "Prime-Time",
+		"regatas": [
+			{
+				"name": "Spi Ouest-France",
+				"file": "spi2010"
+			},
+			{
+				"name": "Course des 3 Iles",
+				"file": "3iles2010"
+			},
+			{
+				"name": "Obelix Trophy",
+				"file": "obelix2010"
+			},
+			{
+				"name": "Grand Prix du Crouesty",
+				"file": "gp2010"
+			},
+			{
+				"name": "UK IRC National",
+				"file": "ukirc2010"
+			},
+			{
+				"name": "Rolex Commodore's Cup",
+				"file": "rcc2010"
+			}
+		]
+	},
+	{
+		"year": "2009",
+		"description": "Victoire au Spi, à l'Obelix et au Fastnet. Ce sera difficile de faire mieux.",
+		"image": "other-for-results/fastnet",
+		"image-description": "Rolex Fastnet 2009, 1er",
+		"boat": "Prime-Time",
+		"regatas": [
+			{
+				"name": "Spi Ouest-France",
+				"file": "spi2009"
+			},
+			{
+				"name": "Obelix Trophy",
+				"file": "obelix2009"
+			},
+			{
+				"name": "Morgan Cup",
+				"file": "morgan2009"
+			},
+			{
+				"name": "Cowes / Dinard",
+				"file": "cowesdinard2009"
+			},
+			{
+				"name": "Channel Race",
+				"file": "channel2009"
+			},
+			{
+				"name": "Rolex Fastnet",
+				"file": "fastnet2009"
+			},
+			{
+				"name": "Atlantique le Télégramme",
+				"file": "trophee2009"
+			}
+		]
+	},
+	{
+		"year": "2008",
+		"description": "Prime Time, an 1. Une deuxième place au Spi perdue sur un OCS, 3 podiums au Trophée Atlantique, meilleur bateau français à la Commodore's, des échecs en offshore..",
+		"image": "dscn0910",
+		"image-description": "Rolex Commodore's Cup 2008, 3ème Classe 3",
+		"boat": "Prime-Time",
+		"regatas": [
+			{
+				"name": "Spi Ouest-France",
+				"file": "spi2008"
+			},
+			{
+				"name": "Obelix Trophy",
+				"file": "obelix2008"
+			},
+			{
+				"name": "Grand Prix du Crouesty",
+				"file": "gp2008"
+			},
+			{
+				"name": "UK IRC Championship",
+				"file": "ukirc2008"
+			},
+			{
+				"name": "Rolex Commodore's Cup",
+				"file": "rcc2008"
+			},
+			{
+				"name": "La Trinité / Lorient",
+				"file": "latrinitelorient2008"
+			},
+			{
+				"name": "Atlantique le Télégramme",
+				"file": "lorient2008"
+			},
+			{
+				"name": "Trophée Atlantique",
+				"file": "trophee2008"
+			}
+		]
+	},
+	{
+		"year": "2007",
+		"description": "La plus belle, victoire au Challenge de Printemps, au Spi Ouest-France, à l'Obelix, à l'Atlantique le Télégramme et par conséquent notre seconde victoire au Trophée Atlantique.",
+		"image": "P4140005",
+		"image-description": "Obélix 2007, 1er",
+		"boat": "Xtra-Time",
+		"regatas": [
+			{
+				"name": "Challenge de Printemps",
+				"file": "printemps2007"
+			},
+			{
+				"name": "Trophée Atlantique",
+				"file": "trophee2007"
+			},
+			{
+				"name": "Spi Ouest-France",
+				"file": "spi2007"
+			},
+			{
+				"name": "Obelix Trophy",
+				"file": "obelix2007"
+			},
+			{
+				"name": "Grand Prix du Crouesty",
+				"file": "gp2007"
+			},
+			{
+				"name": "Cowes / Dinard",
+				"file": "cowesdinard2007"
+			},
+			{
+				"name": "La Trinité / Lorient",
+				"file": "latrinitelorient2007"
+			},
+			{
+				"name": "Atlantique le Télégramme",
+				"file": "lorient2007"
+			}
+		]
+	},
+	{
+		"year": "2006",
+		"description": "Cela aurait probablement été une très bonne saison au Trophée Atlantique, avec un un bon spi et un bon GP, nous n'avons malheureusement pas pu participer à l'Atlantique...",
+		"image": "other-for-results/IMG_1996",
+		"image-description": "Hivernage Xtra-time 2006",
+		"boat": "Xtra-Time",
+		"regatas": [
+			{
+				"name": "Trophée Atlantique",
+				"file": "trophee2006"
+			},
+			{
+				"name": "Spi Ouest-France",
+				"file": "spi2006"
+			},
+			{
+				"name": "Obelix Trophy",
+				"file": "obelix2006"
+			},
+			{
+				"name": "Challenge de Printemps",
+				"file": "printemps2006"
+			},
+			{
+				"name": "Grand Prix du Crouesty",
+				"file": "gp2006"
+			},
+			{
+				"name": "Cowes / Dinard",
+				"file": "cowesdinard2006"
+			}
+		]
+	},
+	{
+		"year": "2005",
+		"description": "Une très bonne année pour le RORC, correcte en Atlantique, deux podiums que nous lachons lors des dernières manches de l'Obelix et de Lorient.",
+		"image": "other-for-results/spi2005",
+		"image-description": "Spi Ouest France, 2005",
+		"boat": "Xtra-Time",
+		"regatas": [
+			{
+				"name": "Trophée Atlantique",
+				"file": "trophee2005"
+			},
+			{
+				"name": "Atlantique le Télégramme",
+				"file": "lorient2005"
+			},
+			{
+				"name": "Cowes / Dinard",
+				"file": "cowesdinard2005"
+			},
+			{
+				"name": "Morgan Cup",
+				"file": "morgan2005"
+			},
+			{
+				"name": "Myth of Malham",
+				"file": "malham2005"
+			},
+			{
+				"name": "Grand Prix du Crouesty",
+				"file": "gp2005"
+			}
+		]
+	},
+	{
+		"year": "2004",
+		"description": "La première année du mat carbone et de l'IRC2 : des résultats moyens jusqu'au Grand prix du Crouesty puis un podium à Cowes.",
+		"image": "118_1877",
+		"image-description": "Semaine de Cowes 2004, 2nd",
+		"boat": "Xtra-Time",
+		"regatas": [
+			{
+				"name": "Trophée Atlantique",
+				"file": "trophee2004"
+			},
+			{
+				"name": "Atlantique le Télégramme",
+				"file": "lorient2004"
+			},
+			{
+				"name": "Semaine de Cowes",
+				"file": "cowes2004"
+			},
+			{
+				"name": "Grand Prix du Crouesty",
+				"file": "gp2004"
+			},
+			{
+				"name": "Obelix Trophy",
+				"file": "obelix2004"
+			},
+			{
+				"name": "Spi Ouest-France",
+				"file": "spi2004"
+			},
+			{
+				"name": "Challenge de Printemps",
+				"file": "printemps2004"
+			}
+		]
+	},
+	{
+		"year": "2003",
+		"description": "L'année catastrophe : 2 0CS au Spi, rien de bien après.",
+		"image": "other-for-results/Carrene 2003-02",
+		"image-description": "Carennage hivers 2003",
+		"boat": "Xtra-Time",
+		"regatas": [
+			{
+				"name": "Trophée Atlantique",
+				"file": "trophee2003"
+			},
+			{
+				"name": "Atlantique le Télégramme",
+				"file": "lorient2003"
+			},
+			{
+				"name": "Double de Lorient",
+				"file": "double2003"
+			},
+			{
+				"name": "Grand Prix du Crouesty",
+				"file": "gp2003"
+			},
+			{
+				"name": "Obelix Trophy",
+				"file": "obelix2003"
+			},
+			{
+				"name": "Spi Ouest-France",
+				"file": "spi2003"
+			},
+			{
+				"name": "Challenge de Printemps",
+				"file": "printemps2003"
+			}
+		]
+	},
+	{
+		"year": "2002",
+		"description": "Victoire au Trophée Atlantique, podium au Spi.",
+		"image": "Equipage GP 2002-1",
+		"image-description": "Trophée Atlantique 2002, 1er",
+		"boat": "Xtra-Time",
+		"regatas": [
+			{
+				"name": "Trophée Atlantique",
+				"file": "trophee2002"
+			},
+			{
+				"name": "Atlantique le Télégramme",
+				"file": "lorient2002"
+			},
+			{
+				"name": "Cork Week",
+				"file": "cork2002"
+			},
+			{
+				"name": "Double Lorient",
+				"file": "double2002"
+			},
+			{
+				"name": "Grand Prix du Crouesty",
+				"file": "gp2002"
+			},
+			{
+				"name": "Obelix Trophy",
+				"file": "obelix2002"
+			},
+			{
+				"name": "Spi Ouest-France",
+				"file": "spi2002"
+			},
+			{
+				"name": "Semaine de La Rochelle",
+				"file": "larochelle2002"
+			}
+		]
+	}
 ]
