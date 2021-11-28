@@ -1,0 +1,26 @@
+.form-private-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-private-container form {
+    display: flex;
+    flex-direction: column;
+    background-color: #001d35;
+    align-items: center;
+    padding: 3rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.form-private-container input {
+    margin-bottom: 1rem;
+}
+
+.private-form-label {
+    color: white;
+    font-family: "Bank Ghotic";
+    font-size: large;
+    margin-bottom: 5px;
+}

@@ -15,6 +15,7 @@ import "../styles/components/video-card.css"
 import "../styles/components/news.css"
 import "../styles/components/error.css"
 import "../styles/components/private-login.css"
+import "../styles/components/private-result.css"
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />
