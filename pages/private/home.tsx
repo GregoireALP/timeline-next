@@ -1,10 +1,13 @@
-import type { NextPage } from "next"
+import type { NextApiRequest, NextApiResponse, NextPage, NextPageContext } from "next"
+import PrivateLayout from "../../components/privateLayout"
+import { checkUser } from "../../core/Middleware"
 
 const Home: NextPage = () => {
-    return (
-        <div className="home">
 
-        </div>
+    return (
+        <PrivateLayout title="Timeline | Dashboard">
+            <p className="title">Tableau de bord</p>
+        </PrivateLayout>
     )
 }
 

@@ -13,6 +13,7 @@ import "../styles/components/result-frame.css"
 import "../styles/components/boat-card.css"
 import "../styles/components/video-card.css"
 import "../styles/components/news.css"
+import "../styles/components/error.css"
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />

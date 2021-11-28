@@ -8,11 +8,10 @@ module.exports = {
     user: "root",
     password: "",
     cookie: {
-      secret: "2tZChI8yRAIqUZH6",
-      name: "timeline"
-    }
+      secret: "2tZChI8yRAIqUZH6"
+    },
   },
   publicRuntimeConfig: {
-    host: "localhost:3000"
+    host: "localhost:3000",
   }
 }

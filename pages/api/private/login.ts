@@ -3,14 +3,14 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 import query from "../../../core/Db"
 import { createToken } from '../../../core/Middleware'
 import { LoginBodyType } from '../../../core/Types'
-import nookies from "nookies"
 import getConfig from "next/config"
+import Cookie from "cookies"
 
 const { serverRuntimeConfig } = getConfig()
 
 type Data = {
     result: any;
-    error?: string;
+    error?: any;
 }
 
 interface ExtendedApiBody extends NextApiRequest {
@@ -29,13 +29,18 @@ export default async function handler(req: ExtendedApiBody, res: NextApiResponse
             })
             if (result[0].theCount == 1) {
                 const token = createToken(req.body.ema)
-                res.setHeader(
-                    'Set-Cookie',
-                    serialize(serverRuntimeConfig.cookie.name, token, {
+                let cookie = new Cookie(req, res)
+
+                try {
+                    cookie.set("jwt-timeline", token, {
+                        maxAge: 86400000,
                         httpOnly: true,
-                        maxAge: 3600 * 1000
+                        secure: false
                     })
-                )
+                } catch(err) {
+                    res.status(400).send({ error: err, result: {} })
+                }
+
                 res.status(200).send({ result: "ok" })
             } else {
                 res.status(400).send({ error: "Incorrect creditentials", result: {} })
