@@ -13,11 +13,13 @@ export type ResultFramePropsType = {
 }
 
 export type NewsType = {
+    id: string;
     tit: string;
     sum: string;
     ico: string;
     dat: string;
     txt: string;
+    is_une: string;
 }
 
 export type NewsDataType = {

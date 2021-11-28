@@ -187,13 +187,13 @@ const Results: NextPage = () => {
                         <br />
 
                         <p className="private-form-label">Annee</p>
-                        <input type="number" value={updateSeason.year} onChange={(e) => { addSeason.year = e.target.value }} placeholder="Annee" />
+                        <input type="number" defaultValue={updateSeason.year} onChange={(e) => { addSeason.year = e.target.value }} placeholder="Annee" />
                         <p className="private-form-label">Resumer</p>
-                        <input type="text" value={updateSeason.description} onChange={(e) => { addSeason.description = e.target.value }} placeholder="Resumer de la saison" />
+                        <input type="text" defaultValue={updateSeason.description} onChange={(e) => { addSeason.description = e.target.value }} placeholder="Resumer de la saison" />
                         <p className="private-form-label">Photo (Sans extension photo en jpg uniquement)</p>
-                        <input type="text" value={updateSeason.img} onChange={(e) => { addSeason.img = e.target.value }} placeholder="Nom de la photo" />
+                        <input type="text" defaultValue={updateSeason.img} onChange={(e) => { addSeason.img = e.target.value }} placeholder="Nom de la photo" />
                         <p className="private-form-label">Description Photo</p>
-                        <input type="text" value={updateSeason.imgDescription} onChange={(e) => { addSeason.imgDescription = e.target.value }} placeholder="DescriptionPhoto" />
+                        <input type="text" defaultValue={updateSeason.imgDescription} onChange={(e) => { addSeason.imgDescription = e.target.value }} placeholder="DescriptionPhoto" />
 
                         <button onClick={(e) => {
                             e.preventDefault()

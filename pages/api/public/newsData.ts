@@ -9,8 +9,8 @@ type Data = {
 export default async function handler(req: NextApiRequest, res: NextApiResponse<Data>) {
 
   const result = await query({
-    query: "SELECT * FROM news WHERE id=?",
-    values: [ req.query.id ]
+    query: "SELECT * FROM news ORDER BY id DESC",
+    values: []
   })
 
   res.status(200).json({ result: result })
