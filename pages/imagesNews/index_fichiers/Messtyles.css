@@ -1,0 +1,370 @@
+.CSSBaniere {
+	font-family: Tahoma;
+	font-size: 18px;
+	font-style: italic;
+	background-image: url(imagesNew/Banner%20Titre.png);
+	background-repeat: repeat-x;
+	background-position: center center;
+	text-align: center;
+	color: #000060;
+	vertical-align: middle;
+	line-height: 30px;
+	text-indent: 200px;
+}
+.CSSBoiteSite {
+	border: 1px double #666666;
+}
+
+.CSSTitreBoite {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #990000;
+	background-image: none;
+	text-align: left;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #666666;
+	line-height: 22px;
+	vertical-align: middle;
+	padding-bottom: 5px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 7px;
+	clip: rect(auto,auto,auto,auto);
+	padding-left: 15px;
+	padding-top: 1px;
+}
+.CSSContenuboite {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 12px;
+	color: #444444;
+	text-transform: none;
+	font-weight: normal;
+	text-align: justify;
+	line-height: 15px;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	padding-left: 3px;
+	padding-right: 4px;
+	margin-top: 0px;
+	margin-right: 1px;
+	margin-bottom: 0px;
+	margin-left: 2px;
+}
+.CSSTitreBoiteMilieu {
+	font-family: Georgia, Times, "Times New Roman";
+	font-size: 21px;
+	font-weight: normal;
+	color: #225577;
+	background-repeat: repeat-x;
+	text-align: left;
+	vertical-align: middle;
+	text-transform: none;
+	background-color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-color: #666666;
+	text-indent: 10px;
+	bottom: 5px;
+	line-height: 25px;
+	border-bottom-style: solid;
+	clip: rect(auto,auto,auto,auto);
+	margin-bottom: 8px;
+}
+.CSSContenuboiteMilieu {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 12px;
+	color: #000000;
+	margin: 5px;
+	text-transform: none;
+	font-weight: normal;
+	text-align: justify;
+	line-height: 15px;
+	text-decoration: none;
+	background-image: url(/images/bgndUne.gif);
+	padding-right: 5px;
+	padding-left: 5px;
+	background-repeat: repeat;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #990000;
+	border-right-color: #990000;
+	border-bottom-color: #990000;
+	border-left-color: #990000;
+}
+.CSSTitreBoiteGauche {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #990000;
+	background-image: none;
+	text-align: left;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #666666;
+	line-height: 22px;
+	vertical-align: middle;
+	margin-top: 0px;
+	margin-right: 0px;
+	clip: rect(auto,auto,auto,auto);
+	padding-left: 5px;
+	padding-top: 3px;
+	margin-bottom: 7px;
+	padding-bottom: 1px;
+}
+
+
+
+.listecourse, .listecourse A  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #225577;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 5px;
+	list-style-image: url(images/flecherouge.png);
+	line-height: 20px;
+	text-decoration:none;
+}
+.listecourse A:hover {color: #FF6600;}
+
+.Footer{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	background-image: url(images/Footer.png);
+	color: #FFFFFF;
+	line-height: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+	cursor: auto;
+	vertical-align: top;
+	text-decoration: none;
+}
+.Footer A {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+
+.textegrassansretrait,.textegrassansretrait A {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 12px;
+	color: #225577;
+	margin: 0px;
+	text-transform: none;
+	font-weight: bold;
+	text-align: left;
+	background-color: #FFFFFF;
+	text-decoration: none;
+}
+
+.textegrasgris,.textegrasgris A {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 12px;
+	color: #444444;
+	margin: 0px;
+	text-transform: none;
+	font-weight: bold;
+	text-align: left;
+	background-color: #FFFFFF;
+	text-decoration: none;
+}
+
+.textegrassansretrait A:hover,.textegrasgris A:hover, .Footer A:hover  {color: #FF9900;}
+
+.textegrassansretraitcentre {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 12px;
+	color: #225577;
+	margin: 0px;
+	text-transform: none;
+	font-weight: bold;
+	text-align: center;
+	background-color: #FFFFFF;
+	text-decoration: none;
+}
+.anneessoulignee {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: dotted;
+	border-top-color: #666666;
+	border-right-color: #666666;
+	border-bottom-color: #666666;
+	border-left-color: #666666;
+	color: #990000;
+}
+
+
+
+.CSSHeaderCalendrier {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 12px;
+	color: #225577;
+	margin: 0px;
+	text-transform: none;
+	font-weight: bold;
+	text-align: center;
+	background-color: #FFFFFF;
+	text-decoration: none;
+}
+.CSSContenuCalendrierpasse {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 12px;
+	color: #CCCCCC;
+	margin: 5px;
+	text-transform: none;
+	font-weight: normal;
+	text-align: center;
+	line-height: 15px;
+	background-color: #FFFFFF;
+}
+.CSSContenuCalendrier {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 12px;
+	color: #444444;
+	margin: 5px;
+	text-transform: none;
+	font-weight: normal;
+	text-align: center;
+	line-height: 15px;
+	background-color: #FFFFFF;
+}
+.newstitre {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: #225577;
+	background-repeat: repeat-x;
+	text-align: left;
+	vertical-align: middle;
+	text-transform: none;
+	background-color: #FFFFFF;
+	text-indent: 0px;
+	bottom: 5px;
+	line-height: 20px;
+	border-bottom-style: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.newsGrosTitre {
+	font-family: Georgia, Times, "Times New Roman";
+	font-size: 21px;
+	font-weight: normal;
+	color: #225577;
+	background-repeat: repeat-x;
+	text-align: left;
+	vertical-align: middle;
+	text-transform: none;
+	background-color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-color: #666666;
+	text-indent: 10px;
+	bottom: 5px;
+	line-height: 25px;
+	border-bottom-style: none;
+	margin-bottom: 8px;
+}
+.newscontenu {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 12px;
+	color: #444444;
+	margin: 0px;
+	text-transform: none;
+	font-weight: normal;
+	text-align: justify;
+	line-height: 15px;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.newsresume {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 12px;
+	color: #990000;
+	text-transform: none;
+	font-weight: bold;
+	text-align: justify;
+	line-height: 15px;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+
+.newsresume A{
+	text-decoration: underline;}
+	
+
+.newsdate {font-size: 9px;font-family: 'Tahoma';font-style: normal;font-weight: normal; text-align: justify ; color: #225577; valign: center;}
+
+.lignedubas {
+	font-size: 9px;
+	color: #FF6600;
+	spacing-left: 1cm;
+	spacing-right: 1cm;
+	text-decoration: none;
+	font-family: Tahoma;
+	text-align: right;
+	display: block;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #C0C0C0;
+	padding-top: 3px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	padding-left: 3px;
+	margin-right: 3px;
+}
+.lignedubas a {
+	text-decoration: none;
+	color: #FF6600;
+	margin-left: 3px;
+}
+
+.liendubas, .liendubas a {
+	font-size: 9px;
+	color: #FF6600;
+	font-family: 'Tahoma';
+	font-weight:bold;
+	text-decoration : none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.textegris, .textegris a {
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 10px;
+	color: #444444;
+	text-transform: none;
+	font-weight: normal;
+	text-align: right;
+	line-height: 15px;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration : none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.CSSCadreImage {
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #999999;
+	margin-top: 2px;
+}

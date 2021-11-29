@@ -1,4 +1,4 @@
-import type { NextPage } from "next"
+import type { NextPage, NextPageContext } from "next"
 import { useRouter } from "next/router"
 import getConfig from "next/config"
 import { Editor } from '@tinymce/tinymce-react';
@@ -8,50 +8,20 @@ import { NewsType } from "../../../../core/Types";
 
 const { publicRuntimeConfig } = getConfig()
 
-const Article: NextPage = () => {
+interface IProps {
+    data?: NewsType
+}
+
+const Article: NextPage<IProps> = ({ data }) => {
 
     const router = useRouter()
     const { id } = router.query
 
-    const defaultState: NewsType = {
-        dat: "NULL",
-        ico: "NULL",
-        sum: "NULL",
-        tit: "NULL",
-        txt: "NULL",
-        id: "NULL",
-        is_une: "NULL",
-    }
-    const [data, setdata] = useState(defaultState)
-
-    useEffect(() => {
-        async function asyncFectching() {
-            try {
-                const res = await fetch('http://' + publicRuntimeConfig.host + '/api/public/newsContentById?id=' + id)
-                const json = await res.json()
-                const news = json.result[0]
-                setdata({
-                    dat: news.dat,
-                    ico: news.ico,
-                    sum: news.sum,
-                    tit: news.tit,
-                    txt: news.txt,
-                    id: news.id,
-                    is_une: news.id_une
-                })
-            } catch (err) {
-                console.log(err)
-            }
-        }
-
-        asyncFectching()
-    }, [])
-
     return (
         <PrivateLayout title="Editer un article">
-            <textarea cols={30} rows={10} defaultValue={data.sum} />
+            <textarea cols={30} rows={10} defaultValue={data?.sum} />
             <Editor
-                initialValue={data.txt}
+                initialValue={data?.txt}
                 init={{
                     height: 1000,
                     menubar: false,
@@ -69,6 +39,21 @@ const Article: NextPage = () => {
             />
         </PrivateLayout>
     )
+}
+
+Article.getInitialProps = async (ctx: NextPageContext) => {
+    const res = await fetch('http://' + publicRuntimeConfig.host + '/api/public/newsContentById?id=' + ctx.query.id)
+    const json = await res.json()
+    const news = json.result[0]
+    return { data : {
+        dat: news.dat,
+        ico: news.ico,
+        sum: news.sum,
+        tit: news.tit,
+        txt: news.txt,
+        id: news.id,
+        is_une: news.id_une
+    }}
 }
 
 export default Article

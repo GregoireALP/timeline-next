@@ -62,7 +62,7 @@ table.steelBlueCols tbody td {
     transition: 300ms;
 }
 
-table.steelBlueCols tbody td:hover {
+table.steelBlueCols tbody tr:hover {
     background-color: #003057;
 }
 

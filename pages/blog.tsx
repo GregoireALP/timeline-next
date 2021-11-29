@@ -24,7 +24,7 @@ const Blog: NextPage<IProps> = ({ dateSpan }) => {
                     })}
                 </ul>
             </div>
-            <NewsNavigator year={year} />
+            <NewsNavigator year={year}/>
         </Layout>
     )
 }
