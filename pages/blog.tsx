@@ -8,14 +8,14 @@ interface IProps {
     dateSpan: number[];
 }
 
-const { publicRuntimeConfig } =  getConfig();
+const { publicRuntimeConfig } = getConfig();
 
 const Blog: NextPage<IProps> = ({ dateSpan }) => {
 
     const [year, setyear] = useState("2021")
 
     return (
-        <Layout title="Timeline | Blog">
+        <div>
             <div className="blog">
                 <p className="title">Blog</p>
                 <ul className="blog-date-list">
@@ -24,8 +24,8 @@ const Blog: NextPage<IProps> = ({ dateSpan }) => {
                     })}
                 </ul>
             </div>
-            <NewsNavigator year={year}/>
-        </Layout>
+            <NewsNavigator year={year} />
+        </div>
     )
 }
 

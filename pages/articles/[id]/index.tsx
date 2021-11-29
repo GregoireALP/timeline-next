@@ -13,9 +13,7 @@ interface IPros {
 const Article: NextPage<IPros> = ({ data }) => {
 
     return (
-        <Layout title={"Timeline | " + data.tit}>
-            <News data={data}/>
-        </Layout>
+        <News data={data}/>
     )
 }
 

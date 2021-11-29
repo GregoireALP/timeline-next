@@ -5,21 +5,19 @@ import Videos from "../json/BoatVideos.json"
 
 const Medias: NextPage = () => {
   return (
-    <Layout title="Timeline | Médias">
-      <div>
-        <p className="title">Médias</p>
-        <br /><br />
-        {Videos.map(function (data) {
-          return (
-            <VideoCard
-              description={data.description}
-              title={data.title}
-              videoURL={data.url}
-            />
-          )
-        })}
-      </div>
-    </Layout>
+    <div>
+      <p className="title">Médias</p>
+      <br /><br />
+      {Videos.map(function (data) {
+        return (
+          <VideoCard
+            description={data.description}
+            title={data.title}
+            videoURL={data.url}
+          />
+        )
+      })}
+    </div>
   )
 }
 

@@ -17,7 +17,7 @@ interface ExtendedNextApiRequest extends NextApiRequest {
 export default async function handler(req: ExtendedNextApiRequest, res: NextApiResponse<Data>) {
     try {
         const jsonFile: ResultFramePropsType[] = await loadJsonFile(path.resolve(__dirname, "../../../../../json/") + "/BoatResults.json")
-        jsonFile.push(req.body)
+        jsonFile.unshift(req.body)
         writeJsonFile(path.resolve(__dirname, "../../../../../json/") + "/BoatResults.json", jsonFile)
         res.status(200).json({ result: jsonFile })
     } catch(err) {

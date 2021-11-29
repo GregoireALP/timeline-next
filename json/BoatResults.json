@@ -13,6 +13,14 @@
 			{
 				"name": "Spi Ouest-France (Double Handed)",
 				"file": "spi2020"
+			},
+			{
+				"name": "ok",
+				"file": "ok"
+			},
+			{
+				"name": "ok",
+				"file": "ok"
 			}
 		]
 	},
@@ -42,6 +50,10 @@
 			{
 				"name": "Rolex Fastnet",
 				"file": "fastnet2019"
+			},
+			{
+				"name": "efrewr",
+				"file": "efwf"
 			}
 		]
 	},
@@ -220,6 +232,10 @@
 			{
 				"name": "Trophée Sémac",
 				"file": "semac2012"
+			},
+			{
+				"name": "efeffe",
+				"file": "fefefefe"
 			}
 		]
 	},

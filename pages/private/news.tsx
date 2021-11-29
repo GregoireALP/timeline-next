@@ -12,10 +12,10 @@ interface IProps {
 
 const News: NextPage<IProps> = ({ data }) => {
     return (
-        <PrivateLayout title={"Timeline"}>
+        <div>
             <p className="title">Modifier un article</p>
             <NewsList data={data} />
-        </PrivateLayout>
+        </div>
     )
 }
 

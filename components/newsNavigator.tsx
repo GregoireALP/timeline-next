@@ -38,7 +38,7 @@ const NewsNavigator: NextPage<IProps> = (props) => {
             <div className="card-navigator">
                 {newsCards.map(function (data) {
                     return (
-                        <NewsCard dat={data.dat} ico={data.ico} title={data.tit} id={data.id} />
+                        <NewsCard dat={data.dat} ico={data.ico} title={data.tit} id={data.id} key={data.id}/>
                     )
                 })}
             </div>

@@ -27,6 +27,44 @@ p {
   text-align: center;
 }
 
+label {
+  margin-bottom: 0.3rem;
+  color: white;
+  font-family: "Bank Ghotic";
+  font-size: larger;
+}
+
+input {
+  margin-bottom: 1.5rem;
+}
+
+input[type=text] {
+  padding: 12px;
+  font-family: "Raleway";
+  font-size: medium;
+  border-radius: 5px;
+}
+
+input[type=button] {
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+  background-color: white;
+  font-family: "Raleway";
+  font-weight: bold;
+}
+
+form {
+  background-color: #001d35;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  margin-top: 3rem;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+  padding: 4rem 0rem 4rem 0rem;
+}
+
 *:focus {
   outline: none;
 }

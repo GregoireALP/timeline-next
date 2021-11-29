@@ -16,9 +16,27 @@ import "../styles/components/news.css"
 import "../styles/components/error.css"
 import "../styles/components/private-login.css"
 import "../styles/components/private-result.css"
+import Layout from '../components/layout'
+import { useRouter } from 'next/router'
+import PrivateLayout from '../components/privateLayout'
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+
+  const router = useRouter()
+
+  if (router.asPath.includes("/private/")) {
+    return (
+      <PrivateLayout title={"Timeline Admin"}>
+        <Component {...pageProps} />
+      </PrivateLayout>
+    )
+  } else {
+    return (
+      <Layout title={"Le Site de Timeline"}>
+        <Component {...pageProps} />
+      </Layout>
+    )
+  }
 }
 
 export default MyApp

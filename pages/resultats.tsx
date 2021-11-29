@@ -34,24 +34,22 @@ const Resultats: NextPage = () => {
     }, [])
 
     return (
-        <Layout title="Timeline | Résultats">
-            <div>
-                <p className="title">Les Résultats</p>
-                <br />
-                {stateOptions.map(function (data, index) {
-                    return (
-                        <ResultFrame
-                            boat={data.boat}
-                            description={data.description}
-                            img={data.img}
-                            imgDescription={data.imgDescription}
-                            regatas={data.regatas}
-                            year={data.year}
-                        />
-                    )
-                })}
-            </div>
-        </Layout>
+        <div>
+            <p className="title">Les Résultats</p>
+            <br />
+            {stateOptions.map(function (data, index) {
+                return (
+                    <ResultFrame
+                        boat={data.boat}
+                        description={data.description}
+                        img={data.img}
+                        imgDescription={data.imgDescription}
+                        regatas={data.regatas}
+                        year={data.year}
+                    />
+                )
+            })}
+        </div>
     )
 }
 

@@ -1,8 +1,8 @@
 import type { NextPage } from 'next'
-import Link from "next/link"
 import Image from 'next/image'
 import { IMAGE_GALLERY_PATH } from '../core/Paths'
 import { RegataType } from '../core/Types'
+import Router from 'next/router'
 
 interface IProps {
     year: string;
@@ -22,7 +22,7 @@ const ResultFrame: NextPage<IProps> = (props) => {
             <div className="result-frame-container">
 
                 <div className="result-frame-image-container">
-                    <Image src={"/.." + IMAGE_GALLERY_PATH + "mythiques/" + props.img + ".jpg"} layout="fill" className="result-frame-image" />
+                    <img src={"images/gallery/mythiques/" + props.img + ".jpg"} className="result-frame-image" />
                     <p className="result-frame-image-description">{props.imgDescription}</p>
                 </div>
 
@@ -40,7 +40,7 @@ const ResultFrame: NextPage<IProps> = (props) => {
                         <tbody>
                             {props.regatas.map(function (data) {
                                 return (
-                                    <tr>
+                                    <tr onClick={() => { Router.push("/classements/" + data.file + ".pdf") }}>
                                         <td>{data.name}</td>
                                         <td>{data.file + ".pdf"}</td>
                                     </tr>

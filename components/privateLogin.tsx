@@ -27,7 +27,7 @@ const PrivateLoginForm: NextPage = () => {
         }
     }
     return (
-        <div className="private-login">
+        <div className="private-form-page">
             <p className="title">Se Connecter</p>
             <form>
                 <label htmlFor="ema">Email</label>

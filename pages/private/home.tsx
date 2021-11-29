@@ -1,13 +1,14 @@
 import type { NextApiRequest, NextApiResponse, NextPage, NextPageContext } from "next"
+import { Document } from "react-pdf"
 import PrivateLayout from "../../components/privateLayout"
 import { checkUser } from "../../core/Middleware"
 
 const Home: NextPage = () => {
 
     return (
-        <PrivateLayout title="Timeline | Dashboard">
+        <div>
             <p className="title">Tableau de bord</p>
-        </PrivateLayout>
+        </div>
     )
 }
 
