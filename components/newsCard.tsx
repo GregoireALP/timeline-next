@@ -17,7 +17,7 @@ const NewsCard: NextPage<IProps> = (props) => {
             <br />
             <p className="news-card-dat">{props.dat.substring(0, 10)}</p>
             <br />
-            <Image src={"/.." + IMAGE_ICO_PATH + props.ico} width="150" height="150" className="news-card-ico"/>
+            <Image src={"/.." + IMAGE_ICO_PATH + props.ico} width="150" height="150" className="news-card-ico" alt={props.title}/>
             <br />
         </div>
     )

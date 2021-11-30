@@ -40,7 +40,7 @@ const ResultFrame: NextPage<IProps> = (props) => {
                         <tbody>
                             {props.regatas.map(function (data) {
                                 return (
-                                    <tr onClick={() => { Router.push("/classements/" + data.file + ".pdf") }}>
+                                    <tr key={data.name} onClick={() => { Router.push("/classements/" + data.file + ".pdf") }}>
                                         <td>{data.name}</td>
                                         <td>{data.file + ".pdf"}</td>
                                     </tr>

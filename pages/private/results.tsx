@@ -102,10 +102,6 @@ const Results: NextPage = () => {
         }
     }
 
-    useEffect(() => {
-        handleSeasonSelector()
-    }, [year])
-
     return (
         <div className="private-result">
             <div className="form-private-container">

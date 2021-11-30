@@ -27,7 +27,7 @@ const NewsList: NextPage<IProps> = ({ data }) => {
                         {data.map(function (news) {
                             var isUne = news.is_une ? "True" : "False"
                             return (
-                                <tr onClick={() => { Router.push("/private/news-editor/" + news.id) }}>
+                                <tr key={news.id} onClick={() => { Router.push("/private/news-editor/" + news.id) }}>
                                     <td>{news.id}</td>
                                     <td dangerouslySetInnerHTML={{__html: news.tit}}></td>
                                     <td dangerouslySetInnerHTML={{__html: news.sum}}></td>

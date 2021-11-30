@@ -31,7 +31,7 @@ const Resultats: NextPage = () => {
         }
         // change state
         setStateValues(allowedState)
-    }, [])
+    }, [stateOptions])
 
     return (
         <div>
@@ -40,6 +40,7 @@ const Resultats: NextPage = () => {
             {stateOptions.map(function (data, index) {
                 return (
                     <ResultFrame
+                        key={data.year}
                         boat={data.boat}
                         description={data.description}
                         img={data.img}

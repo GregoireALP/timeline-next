@@ -11,6 +11,7 @@ const Medias: NextPage = () => {
       {Videos.map(function (data) {
         return (
           <VideoCard
+            key={data.title}
             description={data.description}
             title={data.title}
             videoURL={data.url}
