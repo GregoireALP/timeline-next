@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import { NewsType } from '../core/Types'
 import News from "../components/news"
-import Layout from '../components/layout'
 import getConfig from "next/config"
 interface IProps {
   data: NewsType;
@@ -26,7 +25,10 @@ const Home: NextPage<IProps> = (props) => {
 Home.getInitialProps = async (ctx) => {
   const res = await fetch('http://' + publicRuntimeConfig.host + '/api/public/lastNews')
   const json = await res.json()
-  const news = json.result[0]
+  const news: NewsType = json.result[0]
+  await news.txt.replace(/imagesNews/g, "articles/imagesNews")
+  console.log(news.txt);
+  
   return { data: news }
 }
 
